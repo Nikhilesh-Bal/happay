@@ -1,0 +1,38 @@
+.cards-page{
+    margin: 60px 280px;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    //flex-wrap: wrap;
+    //box-sizing: border-box;
+    justify-content: space-between;
+   .card-holder{
+        align-items:center;
+        height:300px;
+        width:190px;
+        font-size:small;
+        color:rgb(175, 170, 170);
+       box-sizing: border-box;
+        img{
+            height: 120px;
+            width: auto;
+            
+        }
+        .card-about{
+            margin-top: 8px;
+             display:flex;
+            justify-content: space-between;
+            font-size: medium;
+            font-weight: bold;
+            color:rgb(78, 75, 75);
+        }
+        button{
+            width:inherit;
+            border:1px solid #0077b6;
+            background-color: white;
+            color:#0077b6; 
+            padding:4px;
+            margin-top:24px;
+            border-radius: 4px;
+        }
+              }
+}

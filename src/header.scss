@@ -1,0 +1,19 @@
+.header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    .logo-content{
+        display: flex;
+        color:#0077b6;
+        .logo-name{
+            margin-left: 8px;;
+        }
+    }
+    .icon-container{
+        margin-right: 88px;
+        justify-content: space-between;
+       .cart{
+           margin-right:12px;
+       }
+    }
+}
